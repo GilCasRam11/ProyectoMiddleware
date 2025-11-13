@@ -1,0 +1,41 @@
+# Ignorar archivos no necesarios en la construcción de Docker
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Maven
+target/
+.m2/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.classpath
+.project
+.settings/
+
+# Documentación
+README.md
+GUIA_DOCKER.md
+LICENSE
+*.md
+
+# Scripts
+*.sh
+test_api.sh
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Otros
+.env
+.env.local
+*.log
